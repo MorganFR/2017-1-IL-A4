@@ -25,7 +25,7 @@ namespace IntechCode.Tests
         {
             //Arrange
             MyList<int> l = new MyList<int>();
-            //Act -- nothing
+            //Act
             l.Add(1);
             //Assert
             l.Count.Should().Be(1);
@@ -37,7 +37,7 @@ namespace IntechCode.Tests
         {
             //Arrange
             MyList<int> l = new MyList<int>();
-            //Act -- nothing
+            //Act
             for(int i = 0; i <= 16; i++)
             {
                 l.Add(i);
@@ -52,7 +52,7 @@ namespace IntechCode.Tests
         {
             //Arrange
             MyList<int> l = new MyList<int>();
-            //Act -- nothing
+            //Act
             for (int i = 0; i <= 2; i++)
             {
                 l.Add(i);
